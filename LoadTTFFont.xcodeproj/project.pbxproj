@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7468B8115225DDE00657C6C /* NSFont+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7468B7F15225DDE00657C6C /* NSFont+LXExtension.m */; };
 		A780477F15218418008BA5B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780477E15218418008BA5B4 /* Cocoa.framework */; };
 		A780478915218418008BA5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A780478715218418008BA5B4 /* InfoPlist.strings */; };
 		A780478B15218418008BA5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A780478A15218418008BA5B4 /* main.m */; };
 		A780478F15218418008BA5B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A780478D15218418008BA5B4 /* Credits.rtf */; };
 		A780479215218418008BA5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A780479115218418008BA5B4 /* AppDelegate.m */; };
 		A780479515218418008BA5B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A780479315218418008BA5B4 /* MainMenu.xib */; };
-		A78047B615218440008BA5B4 /* NSFont+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A78047B515218440008BA5B4 /* NSFont+LXExtension.m */; };
 		A78047BC152187E2008BA5B4 /* myfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A78047BB152187E2008BA5B4 /* myfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7468B7F15225DDE00657C6C /* NSFont+LXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFont+LXExtension.m"; sourceTree = "<group>"; };
+		A7468B8015225DDE00657C6C /* NSFont+LXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFont+LXExtension.h"; sourceTree = "<group>"; };
 		A780477A15218418008BA5B4 /* LoadTTFFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadTTFFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A780477E15218418008BA5B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A780478115218418008BA5B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -31,8 +33,6 @@
 		A780479015218418008BA5B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A780479115218418008BA5B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A780479415218418008BA5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		A78047B415218440008BA5B4 /* NSFont+LXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFont+LXExtension.h"; path = "../../LXLibrary/LXExtension/NSFont+LXExtension.h"; sourceTree = "<group>"; };
-		A78047B515218440008BA5B4 /* NSFont+LXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFont+LXExtension.m"; path = "../../LXLibrary/LXExtension/NSFont+LXExtension.m"; sourceTree = "<group>"; };
 		A78047BB152187E2008BA5B4 /* myfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +87,8 @@
 		A780478415218418008BA5B4 /* LoadTTFFont */ = {
 			isa = PBXGroup;
 			children = (
-				A78047B415218440008BA5B4 /* NSFont+LXExtension.h */,
-				A78047B515218440008BA5B4 /* NSFont+LXExtension.m */,
+				A7468B7F15225DDE00657C6C /* NSFont+LXExtension.m */,
+				A7468B8015225DDE00657C6C /* NSFont+LXExtension.h */,
 				A780479015218418008BA5B4 /* AppDelegate.h */,
 				A780479115218418008BA5B4 /* AppDelegate.m */,
 				A780479315218418008BA5B4 /* MainMenu.xib */,
@@ -176,7 +176,7 @@
 			files = (
 				A780478B15218418008BA5B4 /* main.m in Sources */,
 				A780479215218418008BA5B4 /* AppDelegate.m in Sources */,
-				A78047B615218440008BA5B4 /* NSFont+LXExtension.m in Sources */,
+				A7468B8115225DDE00657C6C /* NSFont+LXExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
