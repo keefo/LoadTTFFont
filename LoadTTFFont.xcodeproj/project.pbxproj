@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A780477F15218418008BA5B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780477E15218418008BA5B4 /* Cocoa.framework */; };
+		A780478915218418008BA5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A780478715218418008BA5B4 /* InfoPlist.strings */; };
+		A780478B15218418008BA5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A780478A15218418008BA5B4 /* main.m */; };
+		A780478F15218418008BA5B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A780478D15218418008BA5B4 /* Credits.rtf */; };
+		A780479215218418008BA5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A780479115218418008BA5B4 /* AppDelegate.m */; };
+		A780479515218418008BA5B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A780479315218418008BA5B4 /* MainMenu.xib */; };
+		A780479D15218418008BA5B4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780479C15218418008BA5B4 /* SenTestingKit.framework */; };
+		A780479E15218418008BA5B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780477E15218418008BA5B4 /* Cocoa.framework */; };
+		A78047A615218418008BA5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A78047A415218418008BA5B4 /* InfoPlist.strings */; };
+		A78047A915218418008BA5B4 /* LoadTTFFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78047A815218418008BA5B4 /* LoadTTFFontTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A780479F15218418008BA5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A780477115218418008BA5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A780477915218418008BA5B4;
+			remoteInfo = LoadTTFFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A780477A15218418008BA5B4 /* LoadTTFFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadTTFFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A780477E15218418008BA5B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A780478115218418008BA5B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A780478215218418008BA5B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A780478315218418008BA5B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A780478615218418008BA5B4 /* LoadTTFFont-Info.plist */ = {isa = PBXFileReference; path = "LoadTTFFont-Info.plist"; sourceTree = "<group>"; };
+		A780478815218418008BA5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A780478A15218418008BA5B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A780478C15218418008BA5B4 /* LoadTTFFont-Prefix.pch */ = {isa = PBXFileReference; path = "LoadTTFFont-Prefix.pch"; sourceTree = "<group>"; };
+		A780478E15218418008BA5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A780479015218418008BA5B4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A780479115218418008BA5B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A780479415218418008BA5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A780479B15218418008BA5B4 /* LoadTTFFontTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadTTFFontTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A780479C15218418008BA5B4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A78047A315218418008BA5B4 /* LoadTTFFontTests-Info.plist */ = {isa = PBXFileReference; path = "LoadTTFFontTests-Info.plist"; sourceTree = "<group>"; };
+		A78047A515218418008BA5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A78047A715218418008BA5B4 /* LoadTTFFontTests.h */ = {isa = PBXFileReference; path = LoadTTFFontTests.h; sourceTree = "<group>"; };
+		A78047A815218418008BA5B4 /* LoadTTFFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadTTFFontTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A780477715218418008BA5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780477F15218418008BA5B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780479715218418008BA5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780479D15218418008BA5B4 /* SenTestingKit.framework in Frameworks */,
+				A780479E15218418008BA5B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A780476F15218418008BA5B4 = {
+			isa = PBXGroup;
+			children = (
+				A780478415218418008BA5B4 /* LoadTTFFont */,
+				A78047A115218418008BA5B4 /* LoadTTFFontTests */,
+				A780477D15218418008BA5B4 /* Frameworks */,
+				A780477B15218418008BA5B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A780477B15218418008BA5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A780477A15218418008BA5B4 /* LoadTTFFont.app */,
+				A780479B15218418008BA5B4 /* LoadTTFFontTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A780477D15218418008BA5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A780477E15218418008BA5B4 /* Cocoa.framework */,
+				A780479C15218418008BA5B4 /* SenTestingKit.framework */,
+				A780478015218418008BA5B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A780478015218418008BA5B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A780478115218418008BA5B4 /* AppKit.framework */,
+				A780478215218418008BA5B4 /* CoreData.framework */,
+				A780478315218418008BA5B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A780478415218418008BA5B4 /* LoadTTFFont */ = {
+			isa = PBXGroup;
+			children = (
+				A780479015218418008BA5B4 /* AppDelegate.h */,
+				A780479115218418008BA5B4 /* AppDelegate.m */,
+				A780479315218418008BA5B4 /* MainMenu.xib */,
+				A780478515218418008BA5B4 /* Supporting Files */,
+			);
+			path = LoadTTFFont;
+			sourceTree = "<group>";
+		};
+		A780478515218418008BA5B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A780478615218418008BA5B4 /* LoadTTFFont-Info.plist */,
+				A780478715218418008BA5B4 /* InfoPlist.strings */,
+				A780478A15218418008BA5B4 /* main.m */,
+				A780478C15218418008BA5B4 /* LoadTTFFont-Prefix.pch */,
+				A780478D15218418008BA5B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A78047A115218418008BA5B4 /* LoadTTFFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				A78047A715218418008BA5B4 /* LoadTTFFontTests.h */,
+				A78047A815218418008BA5B4 /* LoadTTFFontTests.m */,
+				A78047A215218418008BA5B4 /* Supporting Files */,
+			);
+			path = LoadTTFFontTests;
+			sourceTree = "<group>";
+		};
+		A78047A215218418008BA5B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78047A315218418008BA5B4 /* LoadTTFFontTests-Info.plist */,
+				A78047A415218418008BA5B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A780477915218418008BA5B4 /* LoadTTFFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78047AC15218418008BA5B4 /* Build configuration list for PBXNativeTarget "LoadTTFFont" */;
+			buildPhases = (
+				A780477615218418008BA5B4 /* Sources */,
+				A780477715218418008BA5B4 /* Frameworks */,
+				A780477815218418008BA5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadTTFFont;
+			productName = LoadTTFFont;
+			productReference = A780477A15218418008BA5B4 /* LoadTTFFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A780479A15218418008BA5B4 /* LoadTTFFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78047AF15218418008BA5B4 /* Build configuration list for PBXNativeTarget "LoadTTFFontTests" */;
+			buildPhases = (
+				A780479615218418008BA5B4 /* Sources */,
+				A780479715218418008BA5B4 /* Frameworks */,
+				A780479815218418008BA5B4 /* Resources */,
+				A780479915218418008BA5B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78047A015218418008BA5B4 /* PBXTargetDependency */,
+			);
+			name = LoadTTFFontTests;
+			productName = LoadTTFFontTests;
+			productReference = A780479B15218418008BA5B4 /* LoadTTFFontTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A780477115218418008BA5B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A780477415218418008BA5B4 /* Build configuration list for PBXProject "LoadTTFFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A780476F15218418008BA5B4;
+			productRefGroup = A780477B15218418008BA5B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A780477915218418008BA5B4 /* LoadTTFFont */,
+				A780479A15218418008BA5B4 /* LoadTTFFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A780477815218418008BA5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780478915218418008BA5B4 /* InfoPlist.strings in Resources */,
+				A780478F15218418008BA5B4 /* Credits.rtf in Resources */,
+				A780479515218418008BA5B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780479815218418008BA5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78047A615218418008BA5B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A780479915218418008BA5B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A780477615218418008BA5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780478B15218418008BA5B4 /* main.m in Sources */,
+				A780479215218418008BA5B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780479615218418008BA5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78047A915218418008BA5B4 /* LoadTTFFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78047A015218418008BA5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A780477915218418008BA5B4 /* LoadTTFFont */;
+			targetProxy = A780479F15218418008BA5B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A780478715218418008BA5B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A780478815218418008BA5B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A780478D15218418008BA5B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A780478E15218418008BA5B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A780479315218418008BA5B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A780479415218418008BA5B4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A78047A415218418008BA5B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78047A515218418008BA5B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78047AA15218418008BA5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A78047AB15218418008BA5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A78047AD15218418008BA5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoadTTFFont/LoadTTFFont-Prefix.pch";
+				INFOPLIST_FILE = "LoadTTFFont/LoadTTFFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A78047AE15218418008BA5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoadTTFFont/LoadTTFFont-Prefix.pch";
+				INFOPLIST_FILE = "LoadTTFFont/LoadTTFFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A78047B015218418008BA5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoadTTFFont.app/Contents/MacOS/LoadTTFFont";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoadTTFFont/LoadTTFFont-Prefix.pch";
+				INFOPLIST_FILE = "LoadTTFFontTests/LoadTTFFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A78047B115218418008BA5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoadTTFFont.app/Contents/MacOS/LoadTTFFont";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoadTTFFont/LoadTTFFont-Prefix.pch";
+				INFOPLIST_FILE = "LoadTTFFontTests/LoadTTFFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A780477415218418008BA5B4 /* Build configuration list for PBXProject "LoadTTFFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78047AA15218418008BA5B4 /* Debug */,
+				A78047AB15218418008BA5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78047AC15218418008BA5B4 /* Build configuration list for PBXNativeTarget "LoadTTFFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78047AD15218418008BA5B4 /* Debug */,
+				A78047AE15218418008BA5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A78047AF15218418008BA5B4 /* Build configuration list for PBXNativeTarget "LoadTTFFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78047B015218418008BA5B4 /* Debug */,
+				A78047B115218418008BA5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A780477115218418008BA5B4 /* Project object */;
+}
