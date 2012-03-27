@@ -3,7 +3,7 @@
 //  LoadTTFFont
 //
 //  Created by xu lian on 12-03-26.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Beyondcow. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
